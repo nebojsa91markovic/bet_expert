@@ -1,8 +1,3 @@
-<style>
-
-</style>
-
-
 <div class="main-w3layouts blue">
 		<div class="main-agileinfo">
 			<div class="agileits-top">
@@ -21,47 +16,6 @@
 			</div>
 		</div>
 	</div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <div class="centar" style="background-color:white;">
-  <h2>Pregled korisnika</h2>
-  <form action="?p=sign_up_end" method="POST">
-    <div class="form-group">
-          <label>Ime:</label>
-           <input type="text" class="form-control" name="name">
-              </div>
-     <div class="form-group">
-            <label>Prezime:</label>
-            <input type="text" class="form-control" name="surname">
-                </div>
-
-    <div class="form-group">
-      <label>Email:</label>
-      <input type="email" class="form-control" id="email" name="email" onkeyup="showHint(this.value)">
-    </div>
-
-
-    <div class="form-group">
-      <label>Password:</label>
-      <input type="password" class="form-control" id="pwd" name="pswd">
-    </div>
-    <div id="txtHint"><button type="submit" class="btn btn-primary" disabled>Snimi</button></div>
-    <!-- <button type="submit" class="btn btn-primary">Snimi</button> -->
-  </form>
-</div>
-
 <script>
 function showHint(str) {
     if (str.length == 0) {
